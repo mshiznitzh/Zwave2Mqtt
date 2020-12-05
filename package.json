@@ -109,7 +109,7 @@
     "mqtt-nedb-store": "^0.1.1",
     "native-url": "^0.3.4",
     "nedb": "^1.8.0",
-    "openzwave-shared": "^1.7.1",
+    "openzwave-shared": "^1.7.2",
     "prismjs": "^1.22.0",
     "serialport": "^9.0.2",
     "serve-favicon": "^2.5.0",
