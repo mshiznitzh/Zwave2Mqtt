@@ -91,7 +91,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "ansi_up": "^4.0.4",
+    "ansi_up": "^5.0.0",
     "app-root-path": "^3.0.0",
     "axios": "^0.20.0",
     "axios-progress-bar": "^1.2.0",
