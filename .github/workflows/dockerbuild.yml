@@ -42,7 +42,7 @@ jobs:
           echo DOCKER_REPO="${DOCKER_REPO}" >> $GITHUB_ENV
 
       - name: build+push
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v2.4.0
         with:
           cache-from: type=registry,ref=${{ env.DOCKER_REPO }}:sha-${{ env.GITHUB_SHA }}
           platforms: linux/arm64,linux/amd64,linux/arm/v6,linux/arm/v7
